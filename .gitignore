@@ -1,6 +1,7 @@
 *node_modules/
 *build/
 *.gitignore
+*db.json
 *.env
 *.log
 *.lock

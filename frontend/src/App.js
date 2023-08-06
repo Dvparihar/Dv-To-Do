@@ -1,10 +1,12 @@
+import { Suspense } from 'react';
+import { RouterProvider } from 'react-router-dom';
+import { Router } from './utils/router';
+import PageLoading from './components/pageLoading';
 
-function App() {
-  return (
-    <div>
-      <h4>Dv To-Do Application</h4>
-    </div>
-  );
-}
+const App = () => (
+    <Suspense fallback={<PageLoading />}>
+        <RouterProvider router={Router} />
+    </Suspense>
+);
 
 export default App;

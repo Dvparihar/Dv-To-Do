@@ -1,1 +1,23 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: 100vh;
+}
 
+/* date picker label color */
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value,
+.rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value {
+    color: #575757;
+    color: var(--rs-text-primary);
+}
+
+/* Custom modal card */
+.rs-modal-content {
+    background-color: #8176b4;
+}
+/* Close Icon on Modal */
+.rs-modal-header .rs-modal-header-close {
+    color: #000;
+    font-size: 16px;
+}
